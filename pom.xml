@@ -92,14 +92,6 @@
             <artifactId>camunda-engine-plugin-spin</artifactId>
             <scope>provided</scope>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/org.camunda.spin/camunda-spin-core
-    <dependency>
-    <groupId>org.camunda.spin</groupId>
-    <artifactId>camunda-spin-core</artifactId>
-    <scope>provided</scope>
-    </dependency>
-    -->
-
 
         <!-- Required to use Templates in unit tests -->
         <dependency>
@@ -213,6 +205,7 @@
             <scope>test</scope>
         </dependency>
 
+        <!-- ================== REST API CLIENTS DEPENDENCIES ON JAX-RS AND JACKSON ==================================== -->
         <!-- jackson-jaxrs-json-provider -->
         <dependency>
             <groupId>com.fasterxml.jackson.jaxrs</groupId>
