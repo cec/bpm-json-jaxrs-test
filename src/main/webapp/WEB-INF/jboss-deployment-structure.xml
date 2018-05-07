@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jboss-deployment-structure>
+	<deployment>
+		<exclude-subsystems>
+			<subsystem name="jaxrs" />
+		</exclude-subsystems>
+		<dependencies>
+			<system export="true">
+				<paths>
+					<path name="com/fasterxml/jackson/core/jackson-annotations"/>
+					<path name="com/fasterxml/jackson/core/jackson-core"/>
+					<path name="com/fasterxml/jackson/core/jackson-databind"/>
+				</paths>
+			</system>
+		</dependencies>
+	</deployment>
+</jboss-deployment-structure>
